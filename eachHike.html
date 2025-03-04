@@ -23,13 +23,13 @@
     <!-------------------------------------------------------->
     <!-- Firebase 8 Library related CSS, JS, JQuery go here -->
     <!-------------------------------------------------------->
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
-    <!-- <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script> -->
-    <!-- <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script> -->
-    <!-- <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script> -->
-    <!-- <script src="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.js"></script>  -->
-    <!-- <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.css" /> -->
-    <!-- <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script>-->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+ <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script> 
+ <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script> 
+ <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script> 
+ <script src="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.js"></script>  
+ <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.css" /> 
+ <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script>
 
     <!-------------------------------------------->
     <!-- Other libraries and styles of your own -->
@@ -45,20 +45,36 @@
     <!------------------------------>
 
     <!-- our own navbar goes here -->
-    <!-- <nav id="navbarPlaceholder"></nav> -->
+    <nav id="navbarPlaceholder"></nav> 
 
     <!-- the body of your page goes here -->
+    <div class="container-fluid bg-light text-dark p-5">
+        <span id="quote-goes-here"></span>
+        <div class="container bg-light p-5">
+            <div class="container">
+                <h1><span id="hikeName"> this hike</span></h1>
+                <img class="hike-img responsive" src=""/>
+                <div id="details-go-here"></div>
+          </div>
+            <h1 class="display-4">Welcome, <span id="name-goes-here"></span></h1>
+            <hr>
+            <p>You are logged into justin's demo07 congrats on logging in</p>
+        </div>
+</div>
     <!-- stuff -->
 
     <!-- our own footer goes here-->
-    <!-- <nav id="footerPlaceholder"></nav> -->
+     <nav id="footerPlaceholder"></nav> 
 
     <!---------------------------------------------->
     <!-- Your own JavaScript functions go here    -->
     <!---------------------------------------------->
-    <!-- <script src="./scripts/firebaseAPI_TEAM99.js"></script> -->
-    <!-- <script src="./scripts/skeleton.js"></script> -->
-    <!-- <script src="./scripts/script.js"></script> -->
+    <script src="./scripts/firebaseAPI_TEAM99.js"></script> 
+    <script src="./scripts/skeleton.js"></script> 
+    <script src="./scripts/authentication.js"></script> 
+    <script src="./scripts/script.js"></script>
+    <script src="./scripts/main.js"></script>
+
 
 </body>
 
